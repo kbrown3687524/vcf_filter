@@ -31,7 +31,7 @@ def prot_mutation():
 			print('\n')
 
 def prot_commons():
-	"""Function identifies individual muttaions filtering duplicates amongst samples"""
+	"""Function identifies individual mutations filtering duplicates amongst samples"""
 	prot_mutations_list = []
 	prot_mutations_dict = {}
 	for file in os.listdir():
